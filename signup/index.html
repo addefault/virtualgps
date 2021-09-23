@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<section class="auth-section">
+		<div>
+			<h3>Добро пожаловать<br>в Virtual GPS</h3>
+			<img src="images/welcome.png" alt="Welcome Image">
+		</div>
+		<div>
+			<div class="tabs">
+				<a href="#">Вход</a>
+				<a href="#" class="active">Регистрация</a>
+				<span class="hr"></span>
+			</div>
+			<form action="/">
+				<label>
+					<p>Электронная почта</p>
+					<input type="email" placeholder="virtualgps@gmail.com" name="email">
+				</label>
+				<label>
+					<p>Задайте пароль</p>
+					<div class="password-wrapper">
+					<input type="password" name="password" placeholder="••••••••">
+					<a href="#" class="password-control"></a>	
+					</div>
+				</label>
+				<label>
+					<p>Подтвердите пароль</p>
+					<div class="password-wrapper">
+					<input type="password" name="password" placeholder="••••••••">
+					<a href="#" class="password-control"></a>	
+					</div>
+				</label>
+				<input type="submit" value="Зарегистрироваться">
+			</form>
+		</div>
+	</section>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
