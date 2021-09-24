@@ -410,12 +410,39 @@ p.steps-mobile {
 		display: inline-block;
 	}
 	div.steps-nav p i {
-		width: 58px;
-		height: 58px;
-		font-size: 18px;
 		margin-right: 0;
 		background: #F3F5F9;
 		color: #8B8DAB;
+	}
+	div.steps-nav p:nth-child(2) i {
+		width: 51px;
+		height: 51px;
+		line-height: 51px;
+		font-size: 16px;
+	}
+	div.steps-nav p:nth-child(3) i {
+		width: 38px;
+		height: 38px;
+		line-height: 38px;
+		font-size: 12px;
+	}
+	div.steps-nav p.active i {
+		width: 58px;
+		height: 58px;
+		line-height: 58px;
+		font-size: 18px;
+	}
+	div.steps-nav p.medium i {
+		width: 51px;
+		height: 51px;
+		line-height: 51px;
+		font-size: 16px;
+	}
+	div.steps-nav p.small i {
+		width: 38px;
+		height: 38px;
+		line-height: 38px;
+		font-size: 12px;
 	}
 	p.steps-mobile {
 		display: block;
